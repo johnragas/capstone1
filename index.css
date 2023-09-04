@@ -11,9 +11,3 @@ main {
     background-attachment: fixed;
     background-size: cover;
 }
-
-@media (max-width: 576px) {
-    .min-vh-100 {
-        min-height: auto !important;
-    }
-}
