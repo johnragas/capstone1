@@ -11,7 +11,7 @@
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">	
 
 	<!-- CSS Link -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
@@ -19,7 +19,7 @@
 </head>
 <body>
 	<!-- Navbar -->
-	<nav class="shadow navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	<nav class="shadow navbar sticky-top navbar-expand-md navbar-dark bg-dark">
 	  <a class="navbar-brand" href="#landing">John Manroh Ragas</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -44,61 +44,64 @@
 	<!-- Contents Section -->
 	<main>
 		<!-- Landing Section -->
-		<section id="landing" class="container-fluid pt-2 pt-lg-5 text-light min-vh-100 mb-5">
+		<section id="landing" class="container-fluid pt-3 text-light min-vh-100 mb-5">
 			<div class="row">
-				<div class="col-lg-4 offset-lg-1 pl-lg-5 text-center">
-					<img src="./images/me.jpg" width="250" class="shadow my-3 mt-lg-5 rounded-circle border border-dark">
+				<div class="col-md-4 offset-lg-1 pl-md-5 pt-md-5 text-center">
+					<img src="./images/me.jpg" width="250" class="shadow my-3 mt-md-4 rounded-circle border border-dark" alt="profile picture">
 				</div>
-				<div class="col-lg-7 px-5 py-2 py-lg-5 mt-1 mt-lg-4 text-center text-lg-left">
+				<div class="col-md-7 px-5 pr-md-1 py-2 py-md-5 mt-1 mt-md-3 mt-lg-5 text-center text-md-left">
 					<h1 class="pb-2">Hi, I'm John!</h1>
 					<h2 class="pb-3">I'm a Full Stack Web Developer</h2>
-					<p class="text-justify pr-lg-5">I am dedicated to crafting web applications that combine functionality and aesthetics. With a strong foundation in both front-end and back-end technologies, I thrive in the dynamic world of web development.
+					<p class="text-justify pr-lg-5 mr-lg-5">I am dedicated to crafting web applications that combine functionality and aesthetics. With a strong foundation in both front-end and back-end technologies, I thrive in the dynamic world of web development.
 				</div>
 			</div>
-			<div class="text-center">
-				<a class="shadow btn btn-primary" href="#contact" role="button">Let's Work Together!</a>
+			<div class="text-center mt-3">
+				<a class="shadow border btn btn-primary" href="#contact" role="button">Let's Work Together!</a>
 			</div>
 		</section>
-		<!-- Projects Section -->
+		<!-- Projects Section -->		
 		<section id="projects" class="container-fluid text-light text-center mb-5">
-			<h2 class="font-weight-bold m-3 pt-5 text-white">My Projects</h2>
+			<h2 class="font-weight-bold m-3 pt-2 pt-md-5 text-white">My Projects</h2>
 				<div class="row justify-content-center p-3">
 					<!-- Basic HTML -->
-					<div class="card bg-dark col-xl-4 col-md-6 col-12 px-1">
+					<div class="card bg-dark col-lg-4 col-md-6 px-0 border">
 					  <img src="./images/htmlsite.jpg" class="card-img-top img-fluid" alt="Basic HTML and CSS image">
 					  <div class="card-body">
 					    <h3 class="card-title mt-4">Basic HTML</h3>
 
 					    <p class="card-text text-justify">I had the opportunity to develop a fundamental HTML website project, highlighting my strong foundation in web development. This project focused on the core principles of web design and structure, demonstrating the power of simplicity and clean coding. I crafted a straightforward yet effective user interface, prioritizing usability and accessibility. By adhering to semantic HTML markup, I ensured the website's content was not only well-organized but also search engine-friendly. This project underscores my commitment to the fundamentals of web development and the importance of delivering a solid user experience through clean and structured code.</p>
 					  </div>
+					  <small class="text-muted pt-3">Last updated September 5, 2023</small>
 					  <div class="card-footer bg-dark">
-						    <a target="_blank" class="btn btn-primary" href="https://johnragas.github.io/html-portfolio/" role="button">View Project</a>
+						    <a target="_blank" class="btn border btn-primary" href="https://johnragas.github.io/html-portfolio/" role="button">View Project</a>
 						</div>
 					</div>
 
 					<!-- Landing Page -->
-					<div class="card bg-dark col-xl-4 col-md-6 col-12 px-1 mt-4 mt-md-0">
+					<div class="card bg-dark col-lg-4 col-md-6 px-0 border mt-4 mt-md-0">
 					  <img src="./images/landing.jpg" class="img-fluid card-img-top" alt="Landing Page image">
 					  <div class="card-body">
 					    <h3 class="card-title mt-3 mt-lg-0">Landing Page</h3>
 
 					    <p class="card-text text-justify">I had the opportunity to lead a captivating landing page website project, demonstrating my expertise in web design and development. The goal was to create a visually engaging and conversion-focused page that leaves a lasting impression on visitors. Through meticulous attention to detail, I crafted a sleek and user-friendly design, utilizing modern UI/UX principles to guide users seamlessly toward a call to action. Leveraging responsive design techniques, the landing page offers a consistent experience across devices, ensuring accessibility for a wide audience. This project exemplifies my dedication to delivering impactful web solutions that captivate audiences and drive meaningful engagement.</p>
 					  </div>
+					  <small class="text-muted pt-3">Last updated September 5, 2023</small>
 					  <div class="card-footer bg-dark">
-						    <a target="_blank" class="btn btn-primary" href="https://johnragas.github.io/fcb-portfolio/" role="button">View Project</a>
+						    <a target="_blank" class="border btn btn-primary" href="https://johnragas.github.io/fcb-portfolio/" role="button">View Project</a>
 						</div>
 					</div>
 
 					<!-- E-commerce -->
-					<div class="card bg-dark col-xl-4 col-md-12 col-12 px-1 mt-4 mt-xl-0 mb-4 mb-md-0">
+					<div class="card bg-dark col-lg-4 px-0 border mt-4 mt-lg-0 mb-4 mb-md-0">
 					  <img src="./images/ecommerce.jpg" class="img-fluid card-img-top" alt="Ecommerce image">
 					  <div class="card-body">
 					    <h3 class="card-title mt-4">E-commerce</h3>
 
 					    <p class="card-text text-justify">I had the privilege of spearheading an exciting eCommerce website project, where I harnessed my Full Stack Developer skills to create a seamless online shopping experience. From concept to execution, I meticulously crafted an intuitive user interface that ensures customers can easily browse, search, and purchase products. Behind the scenes, I implemented a robust back-end system that handles inventory management, secure payments, and order processing, guaranteeing a hassle-free shopping journey for users. Leveraging the latest web technologies and best practices, I optimized the site for performance and responsiveness, ensuring it's accessible on various devices. This eCommerce venture represents my commitment to delivering excellence in web development and enhancing the digital shopping experience.</p>
 					  </div>
+					  <small class="text-muted pt-3">Last updated September 5, 2023</small>
 					  <div class="card-footer bg-dark">
-						    <a target="_blank" class="btn btn-primary" href="https://johnragas.github.io/Final-Project-B1-2023/" role="button">View Project</a>
+						    <a target="_blank" class="btn border btn-primary" href="https://johnragas.github.io/Final-Project-B1-2023/" role="button">View Project</a>
 						</div>
 					</div>
 				</div>
@@ -106,19 +109,19 @@
 		</section>
 		<!-- Tools Section -->
 		<section id="tools" class="container-fluid text-light text-center mb-5">
-			<h2 class="font-weight-bold m-3 pt-5 text-white">Tools</h2>
+			<h2 class="font-weight-bold m-3 pt-2 pt-md-5 text-white">Tools</h2>
 			<div class="row justify-content-center p-md-5">
 				<!-- Tools -->
 				<div class="col-xl-4 col-md-12">
 					<h3 class="mt-sm-4 mt-md-3">Front End</h3>
 					<div class="d-flex flex-md-row flex-xl-column justify-content-center">
 		                <div>
-		                    <img width="150" src="./images/logo-html5.png"/>
-		                    <img width="150" src="./images/logo-css3.png"/>
+		                    <img width="150" src="./images/logo-html5.png" alt="html 5 logo" />
+		                    <img width="150" src="./images/logo-css3.png" alt="css 3 logo" />
 		                </div>
 				  		<div>
-		                    <img width="150" src="./images/logo-bootstrap.png"/>
-		                    <img width="150" src="./images/logo-javascript.png"/>
+		                    <img width="150" src="./images/logo-bootstrap.png" alt="bootstrap logo" />
+		                    <img width="150" src="./images/logo-javascript.png" alt="javascript logo" />
 		                </div>
 		            </div>
 				</div>
@@ -127,12 +130,12 @@
 					<h3 class="m-3">MERN</h3>
 					<div class="d-flex flex-md-row flex-xl-column justify-content-center">
 		                <div>
-		                    <img width="150" src="./images/logo-mongodb.png"/>
-		                    <img width="150" src="./images/logo-expressjs.png"/>
+		                    <img width="150" src="./images/logo-mongodb.png" alt="mongo logo" />
+		                    <img width="150" src="./images/logo-expressjs.png" alt="express JS logo l" />
 		                </div>
 				  		<div>
-		                    <img width="150" src="./images/logo-react.png"/>
-		                    <img width="150" src="./images/logo-nodejs.png"/>
+		                    <img width="150" src="./images/logo-react.png" alt="react logo" />
+		                    <img width="150" src="./images/logo-nodejs.png" alt="node JS logo" />
 		                </div>
 		            </div>
 				</div>
@@ -141,12 +144,12 @@
 					<h3 class="m-3">Other Tools</h3>
 					<div class="d-flex flex-md-row flex-xl-column justify-content-center">
 		                <div>
-		                    <img width="150" src="./images/logo-heroku.png"/>
-		                    <img width="150" src="./images/logo-git.png"/>
+		                    <img width="150" src="./images/logo-heroku.png" alt="heroku logo" />
+		                    <img width="150" src="./images/logo-git.png" alt="git logo" />
 		                </div>
 				  		<div>
-		                    <img width="150" src="./images/logo-postman.png"/>
-		                    <img width="150" src="./images/logo-sublime-text-3.png"/>
+		                    <img width="150" src="./images/logo-postman.png" alt="postman logo" />
+		                    <img width="150" src="./images/logo-sublime-text-3.png" alt="sublime 3 logo" />
 		                </div>
 		            </div>
 				</div>					    
@@ -154,10 +157,10 @@
 		</section>
 		<!-- Contacts Section -->
 		<section id="contact" class="container-fluid text-light mb-5">
-			<h2 class="font-weight-bold m-3 pt-5 text-white text-center">Get in Touch</h2>
+			<h2 class="font-weight-bold m-3 pt-2 pt-md-5 text-white text-center">Get in Touch</h2>
   			<div class="row mt-4 pt-3 justify justify-content-center">
 				<div class="col-xl-8">
-					<form id="form-col" class="p-3 mb-2 bg-dark text-white">
+					<form id="form-col" class="p-3 mb-2 bg-dark text-white border">
 		                <div class="form-group bg-secondary">
 		                  <label class="bg-secondary p-1" for="fullName">Full Name</label>
 		                  <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
@@ -165,12 +168,12 @@
 		                
 		                 <div class="form-group bg-secondary">
 		                    <label class="bg-secondary p-1" for="emailAddress">Email Address</label>
-		                <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" >
+		                <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
 		                </div>
 
 		                <div class="form-group bg-secondary">
 		                  <label class="bg-secondary p-1" for="contactNum">Contact Number</label>
-		                  <input type="text" class="form-control" id="contactNum" placeholder="+63 900 000 0000">
+		                  <input type="text" class="form-control" id="contactNum" placeholder="+63 900 000 0000" required>
 		                </div>
 
 		                <div class="form-group bg-secondary">
@@ -188,7 +191,7 @@
 		                	<textarea class="form-control" id="messageArea" rows="4" placeholder="Enter your message.">
 		                	</textarea>
 		                </div>
-		              	<button type="button" class="btn btn-primary btn-lg btn-block text-white" data-toggle="modal" data-target="#modalMessage">Send</button>
+		              	<button type="button" class="btn border btn-primary btn-lg btn-block text-white" data-toggle="modal" data-target="#modalMessage">Send</button>
 			        </form>
 			    </div>
 			    <div class="modal fade bg-transparent" id="modalMessage" tabindex="-1" aria-labelledby="modalMessageLabel" aria-hidden="true">
@@ -221,22 +224,22 @@
 
 					<h3 class="bg-dark pt-5 pb-3">Socials</h3>
 					<a target="_blank" href="https://www.facebook.com/socialsbyjohnragas/">
-                		<i class="fa-brands fa-facebook fa-xl p-2 bg-dark mb-5"></i>
+                		<i class="fa-brands fa-facebook fa-xl p-2 bg-dark mb-5" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
                 	</a>
                 	<a target="_blank" href="https://www.linkedin.com/in/johnmanrohragas/">
-                		<i class="fa-brands fa-linkedin-in fa-xl p-2 bg-dark mb-5"></i>
+                		<i class="fa-brands fa-linkedin-in fa-xl p-2 bg-dark mb-5" data-toggle="tooltip" data-placement="top" title="Linkedin"></i>
                 	</a>
                 	<a target="_blank" href="https://github.com/johnragas">
-                		<i class="fa-brands fa-github fa-xl p-2 bg-dark mb-5"></i>
+                		<i class="fa-brands fa-github fa-xl p-2 bg-dark mb-5" data-toggle="tooltip" data-placement="top" title="Github"></i>
                 	</a>
                 	<a target="_blank" href="https://gitlab.com/johnragas">
-                		<i class="fa-brands fa-gitlab fa-xl p-2 bg-dark mb-5"></i>
+                		<i class="fa-brands fa-gitlab fa-xl p-2 bg-dark mb-5" data-toggle="tooltip" data-placement="top" title="Gitlab"></i>
                 	</a>
 				</div>
 			</div>
 		</section>
 		<!-- Footer Section -->
-		<footer class="bg-dark text-white d-flex justify-content-center p-3">
+        <footer class="bg-dark text-white d-flex justify-content-center p-3">
             <div class="bg-dark px-2">&copy;  2023 John Manroh Ragas.</div>
             <div class="bg-dark px-2">|</div>
             <div class="bg-dark px-2">All rights reserved.</div>
